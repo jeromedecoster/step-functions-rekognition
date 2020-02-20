@@ -1,0 +1,66 @@
+{
+    "SearchedFaceId": "0b9e2a25-c003-4c7e-ab15-846e3876d3c8",
+    "FaceMatches": [
+        {
+            "Similarity": 99.92047882080078,
+            "Face": {
+                "FaceId": "cbc2b5a1-8c1b-451e-9d65-80df770a8ea4",
+                "BoundingBox": {
+                    "Width": 0.06973499804735184,
+                    "Height": 0.07141350209712982,
+                    "Left": 0.47205299139022827,
+                    "Top": 0.4569909870624542
+                },
+                "ImageId": "99ff509e-07e7-3dbc-bd3f-9ff2dadeaa6a",
+                "ExternalImageId": "be74d9c1da50fec72a5b6cfca2375a28",
+                "Confidence": 99.99979400634766
+            }
+        },
+        {
+            "Similarity": 99.87361145019531,
+            "Face": {
+                "FaceId": "4ed8a736-6827-4e40-a08a-ae121b545215",
+                "BoundingBox": {
+                    "Width": 0.16185800731182098,
+                    "Height": 0.1548839956521988,
+                    "Left": 0.4127500057220459,
+                    "Top": 0.4134790003299713
+                },
+                "ImageId": "de964858-100e-3b35-82b0-a81c48786690",
+                "ExternalImageId": "9c9afff04e7507d4254af033ca1788af",
+                "Confidence": 100.0
+            }
+        },
+        {
+            "Similarity": 99.85639190673828,
+            "Face": {
+                "FaceId": "0ad6f694-d96a-4e2d-aa9c-c75d57e20b4b",
+                "BoundingBox": {
+                    "Width": 0.10333699733018875,
+                    "Height": 0.08877299726009369,
+                    "Left": 0.41980400681495667,
+                    "Top": 0.466713011264801
+                },
+                "ImageId": "5f2fbdd9-a8f3-3ef0-a51c-b0802903afe5",
+                "ExternalImageId": "cf01849d63c96ec36244150eb6c5326b",
+                "Confidence": 99.9999008178711
+            }
+        },
+        {
+            "Similarity": 99.34611511230469,
+            "Face": {
+                "FaceId": "8d9ee7a2-4232-4972-afe2-a46a0aa98d1d",
+                "BoundingBox": {
+                    "Width": 0.11115700006484985,
+                    "Height": 0.09152460098266602,
+                    "Left": 0.39862099289894104,
+                    "Top": 0.41455599665641785
+                },
+                "ImageId": "b02c68af-33ae-33d9-959e-13b05bf36854",
+                "ExternalImageId": "acfc5c3809fb5a9f78e21a95e371d350",
+                "Confidence": 100.0
+            }
+        }
+    ],
+    "FaceModelVersion": "4.0"
+}

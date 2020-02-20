@@ -1,0 +1,26 @@
+[
+  {
+    "FaceId": "8d4fd2dc-dfb5-4457-8978-4be39e65ef3b",
+    "BoundingBox": {
+      "Width": 0.17893725633621216,
+      "Height": 0.1224781796336174,
+      "Left": 0.5176985263824463,
+      "Top": 0.30330169200897217
+    },
+    "ImageId": "11d69b90-d8e1-3a63-aeab-9a44389f1056",
+    "ExternalImageId": "44360d9f12cbc80af325b2463dd0c9b0",
+    "Confidence": 100
+  },
+  {
+    "FaceId": "5b9a1801-1d55-4143-ab0b-317ea0d161f4",
+    "BoundingBox": {
+      "Width": 0.1344626247882843,
+      "Height": 0.1245209276676178,
+      "Left": 0.2976873815059662,
+      "Top": 0.20077046751976013
+    },
+    "ImageId": "11d69b90-d8e1-3a63-aeab-9a44389f1056",
+    "ExternalImageId": "44360d9f12cbc80af325b2463dd0c9b0",
+    "Confidence": 99.99998474121094
+  }
+]

@@ -1,0 +1,81 @@
+{
+    "SearchedFaceId": "7843147f-c083-45e8-812f-ff8c8b50b150",
+    "FaceMatches": [
+        {
+            "Similarity": 99.70606994628906,
+            "Face": {
+                "FaceId": "7e9a645e-8859-46e2-8af2-a3621bcb7ebc",
+                "BoundingBox": {
+                    "Width": 0.240556001663208,
+                    "Height": 0.2037220001220703,
+                    "Left": 0.4111190140247345,
+                    "Top": 0.39381301403045654
+                },
+                "ImageId": "d1b3b793-4e3e-3e4d-afb0-b393cccc2cd7",
+                "ExternalImageId": "bf18a4a6882d35678dee00c73f7cc226",
+                "Confidence": 100.0
+            }
+        },
+        {
+            "Similarity": 99.30813598632812,
+            "Face": {
+                "FaceId": "25773893-5d05-41f4-b4c0-0ed5a6af47df",
+                "BoundingBox": {
+                    "Width": 0.23840400576591492,
+                    "Height": 0.24426299333572388,
+                    "Left": 0.39232000708580017,
+                    "Top": 0.3629240095615387
+                },
+                "ImageId": "56b2c3db-0f7b-379f-8b99-eb4e8640575e",
+                "ExternalImageId": "2bba2f1c79240553ec3f1c97d64e8820",
+                "Confidence": 99.9999008178711
+            }
+        },
+        {
+            "Similarity": 94.23624420166016,
+            "Face": {
+                "FaceId": "46bebf39-3b0e-4b49-97f3-6018aa533b68",
+                "BoundingBox": {
+                    "Width": 0.16776500642299652,
+                    "Height": 0.19688299298286438,
+                    "Left": 0.40943101048469543,
+                    "Top": 0.2657720148563385
+                },
+                "ImageId": "bae001dd-a0c1-3609-aa6d-5813c4d4f5c3",
+                "ExternalImageId": "367e54961bd8cc3d9d93cfe8b8124505",
+                "Confidence": 100.0
+            }
+        },
+        {
+            "Similarity": 93.90859985351562,
+            "Face": {
+                "FaceId": "4b8bf4a8-141d-445c-8979-7fb43b0f4dd7",
+                "BoundingBox": {
+                    "Width": 0.23213200271129608,
+                    "Height": 0.2225939929485321,
+                    "Left": 0.3844060003757477,
+                    "Top": 0.33187299966812134
+                },
+                "ImageId": "f01db844-948a-3c53-9d8d-404f116a5603",
+                "ExternalImageId": "7c553e034b858c9698498567c85a09d8",
+                "Confidence": 100.0
+            }
+        },
+        {
+            "Similarity": 88.65225219726562,
+            "Face": {
+                "FaceId": "67a209eb-1eb6-4919-b4cb-0ede3477d4fe",
+                "BoundingBox": {
+                    "Width": 0.22181199491024017,
+                    "Height": 0.21836799383163452,
+                    "Left": 0.4350529909133911,
+                    "Top": 0.2880780100822449
+                },
+                "ImageId": "ef99a53f-a157-3329-bb4c-fa0bbe88e9b5",
+                "ExternalImageId": "c46b76296ce3bdac54dcce3c282290d3",
+                "Confidence": 99.9999008178711
+            }
+        }
+    ],
+    "FaceModelVersion": "4.0"
+}

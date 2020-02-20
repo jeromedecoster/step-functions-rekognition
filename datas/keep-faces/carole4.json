@@ -1,0 +1,14 @@
+[
+  {
+    "FaceId": "4b0a9739-b7e9-4a7d-a253-1f87a17a6a8e",
+    "BoundingBox": {
+      "Width": 0.3426760137081146,
+      "Height": 0.3013458847999573,
+      "Left": 0.30442923307418823,
+      "Top": 0.11596435308456421
+    },
+    "ImageId": "e1aaec79-80d9-3617-b2a0-f8bd32380d30",
+    "ExternalImageId": "15444744fd8ff5dfcb727e793314f728",
+    "Confidence": 100
+  }
+]

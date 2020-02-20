@@ -1,0 +1,38 @@
+{
+    "Comment": "Step Functions Rekognition processing workflow",
+    "StartAt": "DetectFaces",
+    "States": {
+        "DetectFaces": {
+            "Type": "Task",
+            "Resource": "${detect_faces_function_arn}",
+            "ResultPath": "$.ResultDetectFaces",
+            "Next": "AddToCollection",
+            "Catch": [
+                {
+                    "ErrorEquals": [
+                        "States.ALL"
+                    ],
+                    "ResultPath": "$.Throw",
+                    "Next": "ErrorDetected"
+                }
+            ]
+        },
+        "ErrorDetected": {
+            "Type": "Task",
+            "Resource": "${no_face_detected_function_arn}",
+            "End": true
+        },
+        "AddToCollection": {
+            "Type": "Task",
+            "Resource": "${add_to_collection_function_arn}",
+            "ResultPath": "$.ResultAddToCollection",
+            "Next": "Thumbnail"
+        },
+        "Thumbnail": {
+            "Type": "Task",
+            "Resource": "${thumbnail_function_arn}",
+            "ResultPath": "$.ResultThumbnail",
+            "End": true
+        }
+    }
+}

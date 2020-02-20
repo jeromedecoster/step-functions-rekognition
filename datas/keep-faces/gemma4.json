@@ -1,0 +1,26 @@
+[
+  {
+    "FaceId": "35c925c1-5f25-45b5-bad6-6da27b878ceb",
+    "BoundingBox": {
+      "Width": 0.11642292141914368,
+      "Height": 0.10012588649988174,
+      "Left": 0.36005091667175293,
+      "Top": 0.3238164186477661
+    },
+    "ImageId": "f27dafb2-f873-36a3-a201-6fbafc409510",
+    "ExternalImageId": "7c67a714eb63003283f56e9a0afce7b7",
+    "Confidence": 99.99995422363281
+  },
+  {
+    "FaceId": "76701980-6c85-468c-b4f2-bf2f2e62cd91",
+    "BoundingBox": {
+      "Width": 0.103286974132061,
+      "Height": 0.11253198981285095,
+      "Left": 0.6432080864906311,
+      "Top": 0.3598648011684418
+    },
+    "ImageId": "f27dafb2-f873-36a3-a201-6fbafc409510",
+    "ExternalImageId": "7c67a714eb63003283f56e9a0afce7b7",
+    "Confidence": 99.99930572509766
+  }
+]

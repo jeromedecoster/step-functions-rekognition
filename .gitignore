@@ -1,0 +1,11 @@
+.directory
+node_modules
+npm-debug.log
+.terraform
+terraform.plan
+terraform.tfstate
+terraform.tfstate.backup
+*.zip
+payloads
+ignore
+invokes-on-upload.json
