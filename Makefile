@@ -63,7 +63,7 @@ helen: # upload all helen images
 squirrel: # upload the squirrel image
 	./upload.sh squirrel1.jpg
 
-upload-all: carole diane emma fanny gemma helen squirrel # upload all images
+upload-all: alice brooke carole diane emma fanny gemma helen squirrel # upload all images
 
 invoke: # test event for the lambda on-upload with alice1.jpg
 	./invoke.sh alice1.jpg

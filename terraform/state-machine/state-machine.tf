@@ -1,10 +1,7 @@
 variable project_name {}
-# variable step_functions_name {}
-# variable step_functions_role_arn {}
 variable detect_faces_function_arn {}
 variable add_to_collection_function_arn {}
 variable no_face_detected_function_arn {}
-# variable save_function_arn {}
 variable thumbnail_function_arn {}
 
 data template_file state_machine {
@@ -14,7 +11,6 @@ data template_file state_machine {
     detect_faces_function_arn      = var.detect_faces_function_arn
     no_face_detected_function_arn  = var.no_face_detected_function_arn
     add_to_collection_function_arn = var.add_to_collection_function_arn
-    #   save_function_arn              = var.save_function_arn
     thumbnail_function_arn = var.thumbnail_function_arn
   }
 }

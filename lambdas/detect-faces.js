@@ -20,8 +20,8 @@ exports.handler = async (event) => {
         // ignore babies, little children and low quality faces
         let filtered = result.FaceDetails.filter(face => {
             return face.AgeRange.Low >= 10
-                && face.Quality.Brightness >= 50
-                && face.Quality.Sharpness >= 50
+                && face.Quality.Brightness >= 40
+                && face.Quality.Sharpness >= 40
         })
         if (filtered.length == 0) {
             if (result.FaceDetails.length == 1) {
